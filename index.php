@@ -156,16 +156,16 @@ var operation = $( "#operation_display" ).val();
 
 switch(operation) {
   case "+":
-    microservice_url = "http://backend-microservice/addition/calc.php";
+    var microservice_url = "http://backend-microservice/addition/calc.php";
     break;
     case "-":
-    microservice_url = "http://backend-microservice/subtraction/calc.php";
+    var microservice_url = "http://backend-microservice/subtraction/calc.php";
     break;
     case "*":
-    microservice_url = "http://backend-microservice/multiplication/calc.php";
+    var microservice_url = "http://backend-microservice/multiplication/calc.php";
     break;
     case "/":
-    microservice_url = "http://backend-microservice/division/calc.php";
+    var microservice_url = "http://backend-microservice/division/calc.php";
     break;
   default:
     console.log("operation missed!");
