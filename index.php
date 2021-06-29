@@ -168,7 +168,7 @@ switch(operation) {
     microservice_url = "http://backend-microservice/division/calc.php";
     break;
   default:
-    // code block
+    console.log("operation missed!");
 }
 
 
@@ -182,7 +182,7 @@ calc = result.first_number.concat(result.operation, result.second_number);
   $( "#operation_display" ).val("=");
   $( "#calc_display" ).val(result.result);
   }
-  }
+  
   }});
   
 }
