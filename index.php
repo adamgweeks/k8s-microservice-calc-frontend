@@ -161,10 +161,10 @@ switch(operation) {
     case "-":
     var microservice_url = "http://backend-microservice/subtraction/calc.php";
     break;
-    case "*":
+    case "×":
     var microservice_url = "http://backend-microservice/multiplication/calc.php";
     break;
-    case "/":
+    case "÷":
     var microservice_url = "http://backend-microservice/division/calc.php";
     break;
   default:
